@@ -26,7 +26,7 @@ function App() {
   return (
     <div className='App'>
       <header>
-        <h1>Imatis Assignment</h1>
+        <h1>Imatis Assignments</h1>
       </header>
       {isLoading ? (
         <Spinner animation='border' role='status'>
