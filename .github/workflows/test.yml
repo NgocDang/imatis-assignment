@@ -1,0 +1,13 @@
+name: Test run v5
+
+on:
+  workflow_dispatch:
+
+jobs:
+  test:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Show environment v5
+        run: env | grep ^GITHUB
+      - name: Show ref v5
+        run: echo "===============> Version from $GITHUB_REF"
